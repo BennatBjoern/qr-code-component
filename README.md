@@ -16,13 +16,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Desktop](./screenshot.jpg)
-![Mobile](./screenshot.jpg)
+![Desktop](./design/desktop-design-screenshot.png)
+![Mobile](./design/mobile-design-screenshot.png)
 
 ### Links
 
-- Solution URL: [Solution link](https://your-solution-url.com)
-- Live Site URL: [Live Site link](https://your-live-site-url.com)
+- Solution URL: [Solution link](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub)
+- Live Site URL: [Live Site link](https://bennatbjoern.github.io/qr-code-component/)
 
 ## My process
 
