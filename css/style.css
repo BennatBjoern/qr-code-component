@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: var(--light-gray);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--white);
+    width: 30rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Der Margin ist nicht richtig eingestellt und muss noch automatisch angepasst werden (oberer margin) */
+.img {
+    width: 90%;
+    display: block;
+    margin: 1.4rem;
+    border-radius: 12px;
+}
+
+.content-box {
+    width: 30rem;
+    padding: 0 2rem 2.4rem;
+    text-align: center;
+}
+
+.content-heading {
+    margin-bottom: 1rem;
+    color: var(--dark-blue);
+}
+
+.content-text {
+    font-size: 1.4rem;
+    padding: 0 1rem 1rem;
+    color: var(--grayish-blue);
+}
+
